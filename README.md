@@ -1,58 +1,46 @@
 # C Programming Projects
 
-## About This Repository
-
-This repository contains my C programming practice projects. I created these programs while learning the basics of C and improving my problem-solving skills.
-
-Each project focuses on different programming concepts, such as arrays, loops, conditional statements, functions, and basic game logic.
+A collection of small C programs created for practice while learning programming fundamentals and problem-solving.
 
 ## Projects
 
-### 1. Matrix Addition and Subtraction
-A simple program that takes two 2×2 matrices as input and calculates their sum and difference.
+### Matrix Operations
+A program for adding and subtracting two 2×2 matrices.
 
-**Concepts used:** Two-dimensional arrays, nested loops, and arithmetic operations.
+**Concepts:** Two-dimensional arrays, nested loops, and arithmetic operations.
 
-### 2. Tic-Tac-Toe Game
-A two-player Tic-Tac-Toe game where Player 1 uses `X` and Player 2 uses `O`. The program checks the board for a winning combination.
+### Tic-Tac-Toe
+A two-player console game using `X` and `O`, with logic to check for a winning combination.
 
-**Concepts used:** Arrays, loops, conditional statements, and game logic.
+**Concepts:** Arrays, loops, conditional statements, and basic game logic.
 
-### 3. Dynamic Array Operations
-A menu-driven program that allows users to insert, update, delete, sort, search, and display array elements.
+### Array Operations
+A menu-driven program for working with array elements, including operations such as inserting, updating, deleting, sorting, searching, and displaying elements.
 
-**Concepts used:** Functions, pointers, dynamic memory allocation, and arrays.
+**Concepts:** Arrays, functions, pointers, and dynamic memory allocation.
+
+## Requirements
+
+- A C compiler such as GCC
 
 ## How to Run
 
-Make sure you have GCC installed on your computer.
-
-Compile any C program using:
+Compile a C source file:
 
 ```bash
-gcc filename.c -o program
+gcc "Tic-Tac-Toe.c" -o tic_tac_toe
 ```
 
-Then run it:
+Run it on macOS or Linux:
 
 ```bash
-./program
+./tic_tac_toe
 ```
 
-On Windows, use:
+On Windows, run the generated executable, for example `tic_tac_toe.exe`.
 
-```bash
-program.exe
-```
-
-Replace `filename.c` with the name of the C file you want to run.
+Replace the source filename with the program you want to run.
 
 ## Purpose
 
-The purpose of this repository is to document my progress in learning C programming through small projects and practical exercises.
-
-More projects may be added as I continue learning.
-
-## Language
-
-- C
+These projects document my practice with C programming fundamentals. I plan to keep improving the programs as I learn more.
